@@ -1,4 +1,4 @@
-package com.project.hotel.exception;
+package com.hot.ho.exception;
 
 
 public class RoleAlreadyExistException extends RuntimeException {

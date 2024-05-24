@@ -1,9 +1,9 @@
-package com.project.hotel.controller;
+package com.hot.ho.controller;
 
-import com.project.hotel.exception.RoleAlreadyExistException;
-import com.project.hotel.model.Role;
-import com.project.hotel.model.User;
-import com.project.hotel.service.IRoleService;
+import com.hot.ho.exception.RoleAlreadyExistException;
+import com.hot.ho.model.Role;
+import com.hot.ho.model.User;
+import com.hot.ho.service.IRoleService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ import java.util.List;
 
 import static org.springframework.http.HttpStatus.FOUND;
 
-@CrossOrigin("https://hotel-frontend-sooty.vercel.app/")
+
 @RestController
 @RequestMapping("/roles")
 @RequiredArgsConstructor

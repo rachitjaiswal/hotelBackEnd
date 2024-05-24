@@ -1,6 +1,6 @@
-package com.project.hotel.repository;
+package com.hot.ho.repository;
 
-import com.project.hotel.model.Room;
+import com.hot.ho.model.Room;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

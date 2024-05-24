@@ -1,6 +1,6 @@
-package com.project.hotel.security.jwt;
+package com.hot.ho.security.jwt;
 
-import com.project.hotel.security.user.HotelUserDetails;
+import com.hot.ho.security.user.HotelUserDetails;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;

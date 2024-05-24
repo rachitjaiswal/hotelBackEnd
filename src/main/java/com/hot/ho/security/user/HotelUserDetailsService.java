@@ -1,7 +1,7 @@
-package com.project.hotel.security.user;
+package com.hot.ho.security.user;
 
-import com.project.hotel.model.User;
-import com.project.hotel.repository.UserRepository;
+import com.hot.ho.model.User;
+import com.hot.ho.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

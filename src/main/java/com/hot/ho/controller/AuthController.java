@@ -1,12 +1,12 @@
-package com.project.hotel.controller;
+package com.hot.ho.controller;
 
-import com.project.hotel.exception.UserAlreadyExistsException;
-import com.project.hotel.model.User;
-import com.project.hotel.request.LoginRequest;
-import com.project.hotel.response.JwtResponse;
-import com.project.hotel.security.jwt.JwtUtils;
-import com.project.hotel.security.user.HotelUserDetails;
-import com.project.hotel.service.IUserService;
+import com.hot.ho.exception.UserAlreadyExistsException;
+import com.hot.ho.model.User;
+import com.hot.ho.request.LoginRequest;
+import com.hot.ho.response.JwtResponse;
+import com.hot.ho.security.jwt.JwtUtils;
+import com.hot.ho.security.user.HotelUserDetails;
+import com.hot.ho.service.IUserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
-@CrossOrigin("https://hotel-frontend-sooty.vercel.app/")
+
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor

@@ -1,6 +1,6 @@
-package com.project.hotel.security.jwt;
+package com.hot.ho.security.jwt;
 
-import com.project.hotel.security.user.HotelUserDetailsService;
+import com.hot.ho.security.user.HotelUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

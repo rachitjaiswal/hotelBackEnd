@@ -1,6 +1,6 @@
-package com.project.hotel.security.user;
+package com.hot.ho.security.user;
 
-import com.project.hotel.model.User;
+import com.hot.ho.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

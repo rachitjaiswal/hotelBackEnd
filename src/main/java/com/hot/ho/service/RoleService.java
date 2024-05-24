@@ -1,11 +1,11 @@
-package com.project.hotel.service;
+package com.hot.ho.service;
 
-import com.project.hotel.exception.RoleAlreadyExistException;
-import com.project.hotel.exception.UserAlreadyExistsException;
-import com.project.hotel.model.Role;
-import com.project.hotel.model.User;
-import com.project.hotel.repository.RoleRepository;
-import com.project.hotel.repository.UserRepository;
+import com.hot.ho.exception.RoleAlreadyExistException;
+import com.hot.ho.exception.UserAlreadyExistsException;
+import com.hot.ho.model.Role;
+import com.hot.ho.model.User;
+import com.hot.ho.repository.RoleRepository;
+import com.hot.ho.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;

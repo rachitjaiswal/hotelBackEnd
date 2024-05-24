@@ -1,7 +1,7 @@
-package com.project.hotel.controller;
+package com.hot.ho.controller;
 
-import com.project.hotel.model.User;
-import com.project.hotel.service.IUserService;
+import com.hot.ho.model.User;
+import com.hot.ho.service.IUserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("https://hotel-frontend-sooty.vercel.app/")
+
 @RestController
 @RequestMapping("/users")
 @RequiredArgsConstructor

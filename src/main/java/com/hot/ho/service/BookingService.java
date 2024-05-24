@@ -1,10 +1,10 @@
-package com.project.hotel.service;
+package com.hot.ho.service;
 
-import com.project.hotel.exception.InvalidBookingRequestException;
-import com.project.hotel.exception.ResourceNotFoundException;
-import com.project.hotel.model.BookedRoom;
-import com.project.hotel.model.Room;
-import com.project.hotel.repository.BookingRepository;
+import com.hot.ho.exception.InvalidBookingRequestException;
+import com.hot.ho.exception.ResourceNotFoundException;
+import com.hot.ho.model.BookedRoom;
+import com.hot.ho.model.Room;
+import com.hot.ho.repository.BookingRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.project.hotel.request;
+package com.hot.ho.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

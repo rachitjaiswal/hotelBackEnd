@@ -1,6 +1,6 @@
-package com.project.hotel.repository;
+package com.hot.ho.repository;
 
-import com.project.hotel.model.User;
+import com.hot.ho.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

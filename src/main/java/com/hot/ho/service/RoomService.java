@@ -1,9 +1,9 @@
-package com.project.hotel.service;
+package com.hot.ho.service;
 
-import com.project.hotel.exception.InternalServerException;
-import com.project.hotel.exception.ResourceNotFoundException;
-import com.project.hotel.model.Room;
-import com.project.hotel.repository.RoomRepository;
+import com.hot.ho.exception.InternalServerException;
+import com.hot.ho.exception.ResourceNotFoundException;
+import com.hot.ho.model.Room;
+import com.hot.ho.repository.RoomRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

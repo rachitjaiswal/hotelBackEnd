@@ -1,4 +1,4 @@
-package com.project.hotel.security.jwt;
+package com.hot.ho.security.jwt;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.ServletException;

@@ -1,13 +1,13 @@
-package com.project.hotel.controller;
+package com.hot.ho.controller;
 
-import com.project.hotel.exception.PhotoRetrievalException;
-import com.project.hotel.exception.ResourceNotFoundException;
-import com.project.hotel.model.BookedRoom;
-import com.project.hotel.model.Room;
-import com.project.hotel.response.BookingResponse;
-import com.project.hotel.response.RoomResponse;
-import com.project.hotel.service.BookingService;
-import com.project.hotel.service.IRoomService;
+import com.hot.ho.exception.PhotoRetrievalException;
+import com.hot.ho.exception.ResourceNotFoundException;
+import com.hot.ho.model.BookedRoom;
+import com.hot.ho.model.Room;
+import com.hot.ho.response.BookingResponse;
+import com.hot.ho.response.RoomResponse;
+import com.hot.ho.service.BookingService;
+import com.hot.ho.service.IRoomService;
 import lombok.RequiredArgsConstructor;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin("https://hotel-frontend-sooty.vercel.app")
+
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/rooms")

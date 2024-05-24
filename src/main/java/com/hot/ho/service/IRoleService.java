@@ -1,7 +1,7 @@
-package com.project.hotel.service;
+package com.hot.ho.service;
 
-import com.project.hotel.model.Role;
-import com.project.hotel.model.User;
+import com.hot.ho.model.Role;
+import com.hot.ho.model.User;
 
 import java.util.List;
 

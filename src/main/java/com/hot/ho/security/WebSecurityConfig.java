@@ -1,7 +1,7 @@
-package com.project.hotel.security;
-import com.project.hotel.security.jwt.AuthTokenFilter;
-import com.project.hotel.security.jwt.JwtAuthEntryPoint;
-import com.project.hotel.security.user.HotelUserDetailsService;
+package com.hot.ho.security;
+import com.hot.ho.security.jwt.AuthTokenFilter;
+import com.hot.ho.security.jwt.JwtAuthEntryPoint;
+import com.hot.ho.security.user.HotelUserDetailsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

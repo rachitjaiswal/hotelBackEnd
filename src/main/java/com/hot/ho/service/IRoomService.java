@@ -1,6 +1,6 @@
-package com.project.hotel.service;
+package com.hot.ho.service;
 
-import com.project.hotel.model.Room;
+import com.hot.ho.model.Room;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;

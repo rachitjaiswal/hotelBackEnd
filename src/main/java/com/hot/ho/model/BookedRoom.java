@@ -1,4 +1,4 @@
-package com.project.hotel.model;
+package com.hot.ho.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
